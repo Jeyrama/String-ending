@@ -15,3 +15,5 @@ function solution(str, ending){
     return false;
   return str.substr(str.length-ending.length, ending.length) == ending;
 }
+
+// or
