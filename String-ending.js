@@ -17,3 +17,7 @@ function solution(str, ending){
 }
 
 // or
+
+function solution(str, ending){
+  return str.endsWith(ending);
+}
